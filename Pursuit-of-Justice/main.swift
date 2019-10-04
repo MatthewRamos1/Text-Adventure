@@ -41,6 +41,7 @@ var decision5 = ""
 var decision6 = ""
 var decisionForest = ""
 var error = "I don't understand that. Try a different answer!"
+var counter = 0
 
 print("Enter your name.")
  
@@ -70,7 +71,7 @@ print("You help the old woman, fitting the heavy wheel back on the cart. She smi
     default:
     print(error)
     oldWoman()
-    
+
 }
 }
 
@@ -159,6 +160,13 @@ func Cool4(){
     decision6 = readLine() ?? "Error"
     if decision6 == "enter" {
         print("Ỹ̶̼̳̬̜̼ͫ́ͬo̶̫̦u̦̤̭͐̃̒̎͐̚ ̦̻̯͖̣ͥͤ̿͗ͮ̂f͇̭̫̖̺ͨ̍͌ͯͅḁ̻̤͔͓͎ͬ̈ͤ̑ͦͨ͆ll̟̱̪̥͢ ̧̲̂̓ͯ̆ͯt͉̭̳̂ͮ̏ͤͥ̊o̻͊ ̡͇̰ͯ̑ͪͭ̊̿y̥͈͇̗͓̪̦̍͐͟o͗͑̌̏͒̚͏̫̟̯͍͈ͅu̝ͮ̀ͬṟ͇̲̬͔̈́̉͞ ̧̟̊͗ͣͅk̖̠̩̟̝̗n̹̫͔̜͎̥̙̄̉̏ͤ̆́̌e͖̽̅ͧ̌ͪ̀̚e̜̹̳̳͌s͎͓̋̑ͫ̈̅͑,̵̯̰̭͊͐͊̊͒ ͕̞̞̗̝̱̙ͥd̰̣͖̙͇̱̦a̷̮̖̚r̡̘̪̠̰̳͊͆͂͐ͯ̽̑k̖̳̘͎̫̍ͭ́ͥ̄̆̆͡ͅn͕͓̞̖ͧͪ̓͝e̲̰̠̬͘s̲̱͙̠̝ͨ̇̍̀̂͘ͅs̴͓͆̂ ͙̯̮͓͕̮͔c̼͕͕̼ͣ̈́l͙̞̭̅ͬ̒̾̐ǫ̋̍u̲̟̦̱̲ͨ̃̑ͫ̏͆d̹͎̱̅ͩ́̒ͨi͇̠͇͑ͯ̚n̳͈ͨ̂g̹͖͐͋ͧ́̌͘ͅ ̮͇͌̑ͫ̏͑̀y͐ͩ҉̮̗̯̣̫o͖̘̯̙̙͛͋̌͂͒̆ͤ́ü̫͔̮r̭̲̪̭̩͊̿̈́͒͘ͅ ̡̜͓̭̤̰̻̀s̖̣̱͕̮͚̬ͤ̓͋̉c̨͍͓͚̾ͨ̈́͋̓̏o̼͑̔ͮ̓ͯp̹̳̞̞͐ͥe̤̲̝̪̣̽̾ ̙̗̔ͭo̪̱͔͖̺ͬf̘͇̰͌ͯ̂͞ ̙̻͍̋̐ͮ́̐͞v͉̩̝̗̺̲̉ͧ̑͋͞iͮ̉ͦ̀̀͢ṡ̴̗͍͂ͦ̚i̯̩̦̭͍̇ö̜̻͔̬̠̣̠́ͧ̌ͣ̒̂͟n̤̮͙̞̬͇͛͑ͬ̂̚.̵͙͕̹̪̩̹͐͒ ̵̫͕̣͊T̝̙͖̱̣̜̊͋ĥ̹͈̥̖̫͌ḯ̋̓ͦ҉̲̙̫s̢͙̘͗̆̿͆́͂̃ ̮̞̳͜c̷̰͕͒ͬ̾̿ǒ̝̺̪̺̝̱͌́͐̇u̗͓̇͑̄l͚͔̯̍̈́ͮ̈̑̉͢dͤ͆̔̍ͭͣͯ ̜̜̺̝͈̲͛̃b̟͙̩̣̤͈͙ͦͤ̉ͥ͛̓e̊̿͛̕ ̱̪͌̋͌̽̀ͧt̔ͥ̌͐ͣ̌̿̕h͚͇͆̋̽ͫͬ̾̔͘e͙̻͍͕̰͖̘̒̑ͯͥ ͌̏́ͤ͏̱̥e͈̩͊ṇ̣͔̣̏̽̈ͧd̅̔ͤ͌̇̕ ͉̱͌f̸̜̲͕̦̥̂͌̅̀̄ǫͮ̈́͛ͫ͊́r̪̻͙͔ͫ ̨̖̠͔̖̟̦́̐̎̆ͅy̠͉̲ǒ̡͕̱͉͕͉ṵ̬͍́.̼͎̠̥̱͆̓̿̏ͯ̇ ̯͉̋ͤͥT̗̙̖̯̊̔̓̒͆ỷ͓͎̳̭͕ͯ̄ͮp̫͕͕̠̮̘̣e̡̱̩̘͕̱̒ ͓̺̲̦̗̂ͫ̐̾ͫ͑̿\"enter\" to̹̲̱͉̘̖ ̨̖̂͌͂͂̔̍c̐̉͂̚͏o̓̌̉͜n̗̦͚̏t̝̞̫̭i̵̼͙̫͈̔ͅn̳̮͉̮͍̲͎̍u̥̺̜̱̠̤e͖͐͒ͨ͝.͔̮̭̜̟̄͂̋̚̚")
+        repeat{
+           print("D̰͈̻͚͉̬̰ͥ̽ͧ̈́̋̒͒͢ḁ̟̪̤̥̰̿ͣ̈͟͡ř̡̭͉̙̩͓̱͕̇͒́ͯ̆̿̋̄͜ͅk̴͔̟͕̖̰̟̜̻͒͗͆͂̌̓̓ͧͥn̴͇̤͆̈ẽ̠̬̮͍̝͚̫̣̏̐ͭ̾ͭ͝s͚͎̈́͂̾̆̆̂͐s̵̮̥͙̫̣̫͇ͨ̌ͤ̒ͫ́ ̨͚̳̗͍͍̖͇ͩͥ́̕e̖̜͇̓̔̅ͯ͑̀͛ͧ̒͡v̭̟̹̮͙̿͒̈́̊͜͝ͅe̷ͧ̒ͫ̀҉̰̙̻̳͚r̎ͥ͠҉̵̫̮͔̫̮y̷̮ͨ̇̆ͬ̽ͬ͢ẅ̽͝҉̼͇̳͈̤̹͠ḧ̭̺̞́̀̉́̐ͦ̐́͜͠e̟̮̭͙ͮ̔ͬͩ̔̿͋̓ȑ̦̼͎̝͖͌ͯ͊͝e̸̺̐̂͆̌̈̔,̫͔̜̯̟̘̬͔̀ͫ͑̈̆̾̀̚ ̇̓͐͐̔̿ͦ҉̧̛̭̱̟͍̻͓̪̜y̛̛͙̥̦̠͎͎̤͊o̴̤̣̳̳̞̺̞̽̕u̙̼͎̟͇̜͕̓ͮ ̹̦̬̺̆̇ͨͯc̡ͣͤ̂͛ͣͣ̊͟҉̟̦a̶̛̭͙̬̤͓̱͐̐ͩ̓̄ͦ̾͠ͅn̶͉̔̈͢'͆̾͛ͣ̚͢͝͏͎̲̪̙ṯ̵̭̍͛̉ ̻̣͖̗͓̟͊ͣͯf̿҉͏̻̟̮ͅě̛̤̘͑̈ͧ̋ͤͨ̍͢͠e͖̯͎͛l͎̜̣̖ͭ̈͘͝ͅ ̹̻̄́͗͐̀̚ạ̴̷̙͗̿̊ͣ̐ͪͅͅn̞͖̪̏ͬͧ̑̓͋͘ͅỳ̴̵̗̣ͪ̄̉͡t̍ͨ̎̆̒̓̔̚͏͖͖͞ͅḥ͇̘̄̿̊̐ͬ̑̓ͮ͘i̫̠̠̇̊̂́͛͠n̷̬͐ͬ͆͗̊̐̓g͓̭̜̰̳̯̈́͂")
+            counter += 1
+            sleep(5)
+        
+        }
+        while counter < 4
         Cool5()
     } else {
         Cool4()
@@ -167,7 +175,9 @@ func Cool4(){
 
 func Cool5() {
     
-    print("The sword is glowing!")
+    print("Suddenly, your sword begins to glow! The corruption dissipating from your body, you raise your blade aloft, blue light shining from the Unicode glyphs! You direct that light towards the wizard, and with a unearthly roar you write him out of Swift. You save your sister from her cell, but after fully awakening to your ability to use your sword, you too have the great power to bend reality to your whims!")
+    sleep(5)
+    print("What will you do with that power? Will you \"rewrite\" history to make yourself a king? Will you \"destroy\" the sword, so no one else can use its power, and return to your life as a farmhand? Or will you protect these lands as the \"hero\" they need?")
 
     }
 
