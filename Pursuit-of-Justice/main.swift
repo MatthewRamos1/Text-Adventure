@@ -46,6 +46,7 @@ var decision7 = ""
 var decision8 = ""
 var decision9 = ""
 var decision10 = ""
+var decisionForest = ""
 var error = "I don't understand that. Try a different answer!"
 
 
@@ -108,6 +109,7 @@ default:
      Cool()
     }
 }
+
 func Cool2(){
     decision4 = readLine() ?? "Error"
     switch true {
