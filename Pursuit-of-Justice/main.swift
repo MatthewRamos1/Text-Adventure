@@ -183,28 +183,8 @@ func Cool1(){
     }
 }
 
-func Cool2(){
-    decision4 = readLine() ?? "Error"
-    switch true {
-    case decision4 == "parry" :
-    print("You strike back!")
-    print(textBlock1)
-        Cool1()
-    case decision2 == "laugh" :
-        print("You point and laugh at the noble, calling him a sweaty broccoli-mouthed fool! Red-faced, he scurries down the path to the main road in embarassment. Handling the situation directly but totally obnoxiously, you can't help but feel like you are brimming with OBNOXIOUS AGGRESSION. You don't feel great about yourself, but then again, it was pretty damn funny!")
-        print(textBlock1)
-        Cool1()
-    case decision2 == "keep" :
-        print("To avoid an awkward interaction, you keep that bit of embarassing information to yourself! The nobleman whistles down the road, none the wiser. You are drenched in the mire of RUINOUS EMPATHY. You feel like the scum of the earth. But hey, at least its not you meeting the king!")
-        print(textBlock1)
-        Cool1()
-    default:
-         print(error)
-         Cool()
-        }
+
     }
-    
-}
 Cool()
 
 
